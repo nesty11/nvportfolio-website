@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Nestor</title>
+    <link rel="shortcut icon" href="./img/NV.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+
+</head>
+
+<body>
+    <header class="page-header">
+        <img src="./img/nv5.svg" alt="Nestor's logo" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" aria-label="about Nestor" class="navigation-list">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list">Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        Calle 1 <br>
+        Caguas, PR <br>
+        <br>
+        Tel <a href="tel:(555)-555-5555" aria-label="Nestor's phone number">(555)555-5555</a>
+        <br>
+        <a href="mailto:info@email.com"> info@email.com</a>
+
+        <br>
+        <a href="mailto:info@email.com">Contact me</a>
+        <br>
+        <form action="#" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">E-mail:*</label>
+            <input type="email" id="contact-email" required>
+
+            <label class="standard-label" for="contact-tel">Telephone (Optional):</label>
+            <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel">
+            <br>
+
+            <label class="standard-label" for="contact-message">Message:*</label>
+            <textarea maxlength="240" required id="contact-message"></textarea>
+            <br>
+            <input type="submit" value="Send message">
+
+        </form>
+    </main>
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <img src="./img/github2.svg" alt="Github icon">
+            <img src="./img/twitter2.svg" alt="Twitter icon">
+            <img src="./img/linkedin2.svg" alt="LinkedIn icon">
+        </div>
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
