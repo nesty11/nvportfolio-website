@@ -236,9 +236,9 @@ button {
     -webkit-transition-duration: 0.2s;
     -o-transition-duration: 0.2s;
     transition-duration: 0.2s;
-    -webkit-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity;
+    -webkit-transition-property: opacity 0.9;
+    -o-transition-property: opacity 0.9;
+    transition-property: opacity 0.9;
 }
 
 .button {
@@ -254,9 +254,9 @@ button {
     -webkit-transition-duration: 0.2s;
     -o-transition-duration: 0.2s;
     transition-duration: 0.2s;
-    -webkit-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity;
+    -webkit-transition-property: opacity 0.9;
+    -o-transition-property: opacity 0.9;
+    transition-property: opacity 0.9;
 }
 
 .puerto-rico {
