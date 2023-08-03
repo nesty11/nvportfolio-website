@@ -107,6 +107,12 @@ button:focus {
     margin: 0 auto;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
 .page-footer {
     clear: both;
     display: -webkit-box;
