@@ -15,7 +15,7 @@ Contrast Colors:
 /*
 Add fixed element to header so when scrolling down the menu items scroll with page*/
 
-:root{
+:root {
     --bgblackblue: #020f29;
     --textColor: #f3f1f2;
     --headercolor: #8fffe6;
@@ -61,7 +61,7 @@ a {
 
 a:visited {
     /* visited link */
-    color:var(--linkvisited);
+    color: var(--linkvisited);
 }
 
 a:hover,
@@ -72,7 +72,7 @@ a:focus {
 
 a:active {
     /* selected link*/
-    color:var(--linkhover);
+    color: var(--linkhover);
 }
 
 button {
@@ -96,7 +96,7 @@ button {
 button:hover,
 button:focus {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .profile__portrait {
@@ -117,7 +117,6 @@ button:focus {
     flex-direction: column;
     text-align: center;
 }
-
 
 .page-header {
     display: flex;
@@ -217,81 +216,92 @@ button,
     transition-property: opacity;
 }
 
-button:hover,
-button:focus,
-.button:hover .button:focus {
-    cursor: pointer;
-    opacity: 0.8;
-}
-
 .puerto-rico {
     width: 350px;
     margin: 0 auto;
     text-align: center;
 }
+
 @keyframes cloud-1-move {
     from {
-      transform: translate(0, 50px);
+        transform: translate(0, 50px);
     }
+
     to {
-      transform: translate(-200px, 50px);
+        transform: translate(-200px, 50px);
     }
-  }
-  .cloud-1{
+}
+
+.cloud-1 {
     animation: 10s cloud-1-move infinite alternate linear;
-  }
-  @keyframes flag-change {
+}
+
+@keyframes flag-change {
     from {
-      fill: #5b7cc7;
+        fill: #5b7cc7;
     }
+
     to {
-      fill: #00fff7;
-    }
-  }
-  .flags{
-    animation: 4s flag-change infinite alternate linear;
-  }
-  @keyframes sun-change{
-    from{
-        fill: #fbc46a;
-    }
-    to{
-        fill: #fb9153;
-    }
-  }
-  .sun{
-    animation: 10s sun-change infinite alternate linear;
-  }
-@keyframes cloud-2-move {
-    from{
-        transform: translate(-20px,50px);
-    }
-    to{
-        transform: translate(350px,50px);
-    }
-}
-.cloud-2{
-    animation: 10s cloud-2-move infinite alternate linear;
-}
-@keyframes cloud-3-move {
-    from{
-        transform: translate(-100px,50px);
-    }
-    to{
-        transform: translate(120px,50px);
-    }
-}
-.cloud-3{
-    animation: 10s cloud-3-move infinite alternate linear;
-}
-@keyframes background-change {
-    from{
-        fill: #e89fd4;
-    }
-    to{
         fill: #00fff7;
     }
 }
-.background-4{
+
+.flags {
+    animation: 4s flag-change infinite alternate linear;
+}
+
+@keyframes sun-change {
+    from {
+        fill: #fbc46a;
+    }
+
+    to {
+        fill: #fb9153;
+    }
+}
+
+.sun {
+    animation: 10s sun-change infinite alternate linear;
+}
+
+@keyframes cloud-2-move {
+    from {
+        transform: translate(-20px, 50px);
+    }
+
+    to {
+        transform: translate(350px, 50px);
+    }
+}
+
+.cloud-2 {
+    animation: 10s cloud-2-move infinite alternate linear;
+}
+
+@keyframes cloud-3-move {
+    from {
+        transform: translate(-100px, 50px);
+    }
+
+    to {
+        transform: translate(120px, 50px);
+    }
+}
+
+.cloud-3 {
+    animation: 10s cloud-3-move infinite alternate linear;
+}
+
+@keyframes background-change {
+    from {
+        fill: #e89fd4;
+    }
+
+    to {
+        fill: #00fff7;
+    }
+}
+
+.background-4 {
     animation: 10s background-change infinite alternate linear;
 }
