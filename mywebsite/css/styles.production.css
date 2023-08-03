@@ -57,7 +57,7 @@ a {
 
 a:visited {
     /* visited link */
-    color:#ff99ff;
+    color: #ff99ff;
 }
 
 a:hover,
@@ -68,7 +68,7 @@ a:focus {
 
 a:active {
     /* selected link*/
-    color:#fff;
+    color: #fff;
 }
 
 button {
@@ -92,7 +92,7 @@ button {
 button:hover,
 button:focus {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .profile__portrait {
@@ -114,14 +114,9 @@ button:focus {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     text-align: center;
-}
-
-* {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
 }
 
 .page-header {
@@ -131,14 +126,14 @@ button:focus {
     width: 100%;
     padding: 20px;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .page-header__item {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 auto;
-            flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
 }
 
 .navigation-list {
@@ -147,7 +142,7 @@ button:focus {
     display: flex;
     list-style-type: none;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -233,8 +228,8 @@ button {
     border-radius: 3px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     -webkit-transition-duration: 0.2s;
-         -o-transition-duration: 0.2s;
-            transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
     -webkit-transition-property: opacity;
     -o-transition-property: opacity;
     transition-property: opacity;
@@ -251,18 +246,11 @@ button {
     border-radius: 3px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     -webkit-transition-duration: 0.2s;
-         -o-transition-duration: 0.2s;
-            transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
     -webkit-transition-property: opacity;
     -o-transition-property: opacity;
     transition-property: opacity;
-}
-
-button:hover,
-button:focus,
-.button:hover .button:focus {
-    cursor: pointer;
-    opacity: 0.8;
 }
 
 .puerto-rico {
@@ -270,135 +258,165 @@ button:focus,
     margin: 0 auto;
     text-align: center;
 }
+
 @-webkit-keyframes cloud-1-move {
     from {
-      -webkit-transform: translate(0, 50px);
-              transform: translate(0, 50px);
+        -webkit-transform: translate(0, 50px);
+        transform: translate(0, 50px);
     }
+
     to {
-      -webkit-transform: translate(-200px, 50px);
-              transform: translate(-200px, 50px);
+        -webkit-transform: translate(-200px, 50px);
+        transform: translate(-200px, 50px);
     }
-  }
+}
+
 @keyframes cloud-1-move {
     from {
-      -webkit-transform: translate(0, 50px);
-              transform: translate(0, 50px);
+        -webkit-transform: translate(0, 50px);
+        transform: translate(0, 50px);
     }
+
     to {
-      -webkit-transform: translate(-200px, 50px);
-              transform: translate(-200px, 50px);
+        -webkit-transform: translate(-200px, 50px);
+        transform: translate(-200px, 50px);
     }
-  }
-  .cloud-1{
+}
+
+.cloud-1 {
     -webkit-animation: 10s cloud-1-move infinite alternate linear;
-            animation: 10s cloud-1-move infinite alternate linear;
-  }
-  @-webkit-keyframes flag-change {
+    animation: 10s cloud-1-move infinite alternate linear;
+}
+
+@-webkit-keyframes flag-change {
     from {
-      fill: #5b7cc7;
+        fill: #5b7cc7;
     }
+
     to {
-      fill: #00fff7;
+        fill: #00fff7;
     }
-  }
-  @keyframes flag-change {
+}
+
+@keyframes flag-change {
     from {
-      fill: #5b7cc7;
+        fill: #5b7cc7;
     }
+
     to {
-      fill: #00fff7;
+        fill: #00fff7;
     }
-  }
-  .flags{
+}
+
+.flags {
     -webkit-animation: 4s flag-change infinite alternate linear;
-            animation: 4s flag-change infinite alternate linear;
-  }
-  @-webkit-keyframes sun-change{
-    from{
+    animation: 4s flag-change infinite alternate linear;
+}
+
+@-webkit-keyframes sun-change {
+    from {
         fill: #fbc46a;
     }
-    to{
+
+    to {
         fill: #fb9153;
     }
-  }
-  @keyframes sun-change{
-    from{
+}
+
+@keyframes sun-change {
+    from {
         fill: #fbc46a;
     }
-    to{
+
+    to {
         fill: #fb9153;
     }
-  }
-  .sun{
+}
+
+.sun {
     -webkit-animation: 10s sun-change infinite alternate linear;
-            animation: 10s sun-change infinite alternate linear;
-  }
+    animation: 10s sun-change infinite alternate linear;
+}
+
 @-webkit-keyframes cloud-2-move {
-    from{
-        -webkit-transform: translate(-20px,50px);
-                transform: translate(-20px,50px);
+    from {
+        -webkit-transform: translate(-20px, 50px);
+        transform: translate(-20px, 50px);
     }
-    to{
-        -webkit-transform: translate(350px,50px);
-                transform: translate(350px,50px);
+
+    to {
+        -webkit-transform: translate(350px, 50px);
+        transform: translate(350px, 50px);
     }
 }
+
 @keyframes cloud-2-move {
-    from{
-        -webkit-transform: translate(-20px,50px);
-                transform: translate(-20px,50px);
+    from {
+        -webkit-transform: translate(-20px, 50px);
+        transform: translate(-20px, 50px);
     }
-    to{
-        -webkit-transform: translate(350px,50px);
-                transform: translate(350px,50px);
+
+    to {
+        -webkit-transform: translate(350px, 50px);
+        transform: translate(350px, 50px);
     }
 }
-.cloud-2{
+
+.cloud-2 {
     -webkit-animation: 10s cloud-2-move infinite alternate linear;
-            animation: 10s cloud-2-move infinite alternate linear;
+    animation: 10s cloud-2-move infinite alternate linear;
 }
+
 @-webkit-keyframes cloud-3-move {
-    from{
-        -webkit-transform: translate(-100px,50px);
-                transform: translate(-100px,50px);
+    from {
+        -webkit-transform: translate(-100px, 50px);
+        transform: translate(-100px, 50px);
     }
-    to{
-        -webkit-transform: translate(120px,50px);
-                transform: translate(120px,50px);
+
+    to {
+        -webkit-transform: translate(120px, 50px);
+        transform: translate(120px, 50px);
     }
 }
+
 @keyframes cloud-3-move {
-    from{
-        -webkit-transform: translate(-100px,50px);
-                transform: translate(-100px,50px);
+    from {
+        -webkit-transform: translate(-100px, 50px);
+        transform: translate(-100px, 50px);
     }
-    to{
-        -webkit-transform: translate(120px,50px);
-                transform: translate(120px,50px);
+
+    to {
+        -webkit-transform: translate(120px, 50px);
+        transform: translate(120px, 50px);
     }
 }
-.cloud-3{
+
+.cloud-3 {
     -webkit-animation: 10s cloud-3-move infinite alternate linear;
-            animation: 10s cloud-3-move infinite alternate linear;
+    animation: 10s cloud-3-move infinite alternate linear;
 }
+
 @-webkit-keyframes background-change {
-    from{
+    from {
         fill: #e89fd4;
     }
-    to{
+
+    to {
         fill: #00fff7;
     }
 }
+
 @keyframes background-change {
-    from{
+    from {
         fill: #e89fd4;
     }
-    to{
+
+    to {
         fill: #00fff7;
     }
 }
-.background-4{
+
+.background-4 {
     -webkit-animation: 10s background-change infinite alternate linear;
-            animation: 10s background-change infinite alternate linear;
+    animation: 10s background-change infinite alternate linear;
 }
