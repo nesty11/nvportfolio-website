@@ -111,6 +111,11 @@ button:focus {
     margin: 0 auto;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
 .page-footer {
     clear: both;
     display: flex;
