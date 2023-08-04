@@ -213,7 +213,7 @@ button,
     display: inline-block;
     font-family: inherit;
     background-color: var(--buttonbgcolor);
-    color: var(--textColor);
+    color: var(--buttontextcolor);
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
