@@ -78,8 +78,8 @@ button {
     /*takes the font from the outer container*/
     font-family: inherit;
     /*styles the background color, font color, and text decoration (underline, etc.) of the button */
-    background-color: #357b70;
-    color: #f3f1f2;
+    background-color: #f3f1f2;
+    color: #357b70;
     text-decoration: none;
     /*adds spacing to the button (this will be discussed more in-depth later) */
     padding: 10px;
@@ -109,7 +109,7 @@ button:focus {
 
 * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 
@@ -120,8 +120,8 @@ button:focus {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
 }
 
@@ -132,14 +132,14 @@ button:focus {
     width: 100%;
     padding: 20px;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .page-header__item {
     -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
 }
 
 .navigation-list {
@@ -148,7 +148,7 @@ button:focus {
     display: flex;
     list-style-type: none;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -227,15 +227,15 @@ button {
     border: none;
     display: inline-block;
     font-family: inherit;
-    background-color: #357b70;
+    background-color: #f3f1f2;
     color: #f3f1f2;
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     -webkit-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    transition-duration: 0.2s;
+         -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
     -webkit-transition-property: opacity;
     -o-transition-property: opacity;
     transition-property: opacity;
@@ -245,15 +245,15 @@ button {
     border: none;
     display: inline-block;
     font-family: inherit;
-    background-color: #357b70;
+    background-color: #f3f1f2;
     color: #f3f1f2;
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     -webkit-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    transition-duration: 0.2s;
+         -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
     -webkit-transition-property: opacity;
     -o-transition-property: opacity;
     transition-property: opacity;
@@ -268,30 +268,30 @@ button {
 @-webkit-keyframes cloud-1-move {
     from {
         -webkit-transform: translate(0, 50px);
-        transform: translate(0, 50px);
+                transform: translate(0, 50px);
     }
 
     to {
         -webkit-transform: translate(-200px, 50px);
-        transform: translate(-200px, 50px);
+                transform: translate(-200px, 50px);
     }
 }
 
 @keyframes cloud-1-move {
     from {
         -webkit-transform: translate(0, 50px);
-        transform: translate(0, 50px);
+                transform: translate(0, 50px);
     }
 
     to {
         -webkit-transform: translate(-200px, 50px);
-        transform: translate(-200px, 50px);
+                transform: translate(-200px, 50px);
     }
 }
 
 .cloud-1 {
     -webkit-animation: 10s cloud-1-move infinite alternate linear;
-    animation: 10s cloud-1-move infinite alternate linear;
+            animation: 10s cloud-1-move infinite alternate linear;
 }
 
 @-webkit-keyframes flag-change {
@@ -316,7 +316,7 @@ button {
 
 .flags {
     -webkit-animation: 4s flag-change infinite alternate linear;
-    animation: 4s flag-change infinite alternate linear;
+            animation: 4s flag-change infinite alternate linear;
 }
 
 @-webkit-keyframes sun-change {
@@ -341,65 +341,65 @@ button {
 
 .sun {
     -webkit-animation: 10s sun-change infinite alternate linear;
-    animation: 10s sun-change infinite alternate linear;
+            animation: 10s sun-change infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-2-move {
     from {
         -webkit-transform: translate(-20px, 50px);
-        transform: translate(-20px, 50px);
+                transform: translate(-20px, 50px);
     }
 
     to {
         -webkit-transform: translate(350px, 50px);
-        transform: translate(350px, 50px);
+                transform: translate(350px, 50px);
     }
 }
 
 @keyframes cloud-2-move {
     from {
         -webkit-transform: translate(-20px, 50px);
-        transform: translate(-20px, 50px);
+                transform: translate(-20px, 50px);
     }
 
     to {
         -webkit-transform: translate(350px, 50px);
-        transform: translate(350px, 50px);
+                transform: translate(350px, 50px);
     }
 }
 
 .cloud-2 {
     -webkit-animation: 10s cloud-2-move infinite alternate linear;
-    animation: 10s cloud-2-move infinite alternate linear;
+            animation: 10s cloud-2-move infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-3-move {
     from {
         -webkit-transform: translate(-100px, 50px);
-        transform: translate(-100px, 50px);
+                transform: translate(-100px, 50px);
     }
 
     to {
         -webkit-transform: translate(120px, 50px);
-        transform: translate(120px, 50px);
+                transform: translate(120px, 50px);
     }
 }
 
 @keyframes cloud-3-move {
     from {
         -webkit-transform: translate(-100px, 50px);
-        transform: translate(-100px, 50px);
+                transform: translate(-100px, 50px);
     }
 
     to {
         -webkit-transform: translate(120px, 50px);
-        transform: translate(120px, 50px);
+                transform: translate(120px, 50px);
     }
 }
 
 .cloud-3 {
     -webkit-animation: 10s cloud-3-move infinite alternate linear;
-    animation: 10s cloud-3-move infinite alternate linear;
+            animation: 10s cloud-3-move infinite alternate linear;
 }
 
 @-webkit-keyframes background-change {
@@ -424,5 +424,5 @@ button {
 
 .background-4 {
     -webkit-animation: 10s background-change infinite alternate linear;
-    animation: 10s background-change infinite alternate linear;
+            animation: 10s background-change infinite alternate linear;
 }
