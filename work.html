@@ -1,101 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nestor's Projects</title>
-    <link rel="shortcut icon" href="./img/NV.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+    <link rel="shortcut icon" href="./img/NV.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header class="page-header">
-        <img src="./img/nv5.svg" alt="Nestor's logo" class="page-header__item">
-        <nav class="main-navigation page-header__item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="index.html" role="menuitem" class="navigation-list">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.html" role="menuitem" aria-label="about Nestor" class="navigation-list">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="contact.html" role="menuitem" class="navigation-list">Contact</a>
-                </li>
-                <li role="presentation">
-                    <a href="work.html" role="menuitem" class="navigation-list">Work</a>
-                </li>
-            </ul>
-        </nav>
+      <img src="./img/nv5.svg" alt="Nestor's logo" class="page-header__item" />
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="about.html"
+              role="menuitem"
+              aria-label="about Nestor"
+              class="navigation-list"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list"
+              >Contact</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list">Work</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <h1>Work</h1>
-            <div class="project-list">
-                <div class="grid__item">
-                    <h2 class="work-table">Mobile Web App</h2>
-                    <p>
-                        In the future I will be working on a mobile web app. More information coming soon!
-                    </p>
-                    <a href="#">See project on Github</a>
-                </div>
-                <div class="grid__item">
-                    <h2 class="work-table"> Native MacOS Application</h2>
-                    <p>
-                        In the future I will be working a native MacOS application. More information coming soon!
-                    </p>
-                    <a href="#">See project on Github</a>
-                </div>
-                <div class="grid__item">
-                    <h2 class="work-table"> Node.js PDF Generation</h2>
-                    <p>
-                        In the future I will be working on a node.js PDF generator. More information coming soon!
-                    </p>
-                    <a href="#">See project on Github</a>
-                </div>
-                <div class="grid__item">
-                    <h2 class="work-table"> Styleguide for Portfolio Page</h2>
-                    <p>
-                        This is were you'll find my personal styleguide for my portfolio page. Come check it out in the
-                        near future!
-                    </p>
-                    <a href="#">See styleguide</a>
-                </div>
-                <div class="grid__item">
-                    <h2 class="work-table"> Medium Blog</h2>
-                    <p>
-                        You will find my blog here. More information coming soon!
-                    </p>
-                    <a href="#">Read my latest blog article</a>
-                </div>
-                <div class="grid__item">
-                    <h2 class="work-table"> Your Project?</h2>
-                    <p>
-                        Have a project of your own? Contact me to help you build it! More information coming soon!
-                    </p>
-                    <a href="#">Contact me</a>
-                </div>
-            </div>
-        </section>
-
+      <section>
+        <h1>Work</h1>
+        <div class="project-list">
+          <div class="grid__item">
+            <h2 class="work-table">Meet Me: Web App</h2>
+            <p>
+              This is a serverless, progessive web application (PWA) with React
+              using a test-driven development (TDD) technique. The application
+              uses Google Calendar API to fecth upcoming events
+            </p>
+            <ul>
+              <h3>Key Features:</h3>
+              <li>Filkter events by city</li>
+              <li>Show/Hide event details</li>
+              <li>Specify number of events</li>
+              <li>Use the App when offline</li>
+              <li>Add an App Shortcut to the Home Screen</li>
+              <li>Display charts visualizing event details</li>
+            </ul>
+            <a href="https://nesty11.github.io/meet/">See project on Github</a>
+          </div>
+          <div class="grid__item">
+            <h2 class="work-table">NvFlix</h2>
+            <p>
+              NvFlix is a dynamic web application designed to revolutionize your
+              movie-watching escapades. Whether you're a film enthusiast or a
+              casual viewer, NvFlix is your gateway to a world of cinematic
+              delight.
+            </p>
+            <ul>
+              <h3>Key Features:</h3>
+              <li>Intuitive Navigation</li>
+              <li>Personalized Profiles</li>
+              <li>Interactive Movie Cards</li>
+              <li>Responsive Design</li>
+              <li>Custom Movie API</li>
+            </ul>
+            <a href="https://github.com/nesty11/myFlix-client"
+              >See project on Github</a
+            ><br />
+            <a href="https://nvflixapp.netlify.app/login"
+              >Join now to view the app!</a
+            >
+          </div>
+          <div class="grid__item">
+            <h2 class="work-table">Pokedex</h2>
+            <p>
+              A simple Pokédex app which you'll find Pokémon from the first
+              generation to the fourth generation. The Pokémon will display
+              their names, normal artwork, shiny variant artwork, types and
+              abilities.
+            </p>
+            <a href="https://github.com/nesty11/national-dex"
+              >See project on Github</a
+            ><br />
+            <a href="https://nesty11.github.io/national-dex/"
+              >Click here to view the app!</a
+            >
+          </div>
+          <div class="grid__item">
+            <h2 class="work-table">RESTful API for NvFlix</h2>
+            <p>
+              Built the server-side component for the NvFlix web application.
+              The web application will provide users with access to information
+              about different movies, directors, and genres. Users will be able
+              to sign up, update their personal information, and create a list
+              of their favorite movies.
+            </p>
+            <a href="https://github.com/nesty11/movie_api"
+              >See project on Github</a
+            >
+          </div>
+          <div class="grid__item">
+            <h2 class="work-table">Medium Blog</h2>
+            <p>You will find my blog here. More information coming soon!</p>
+            <a href="#">Read my latest blog article</a>
+          </div>
+          <div class="grid__item">
+            <h2 class="work-table">Your Project?</h2>
+            <p>
+              Have a project of your own? Contact me to help you build it! More
+              information coming soon!
+            </p>
+            <a href="#">Contact me</a>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="page-footer">
-        <p>Find me on</p>
-        <div class="social-media">
-            <img src="./img/github2.svg" alt="Github icon">
-            <img src="./img/twitter2.svg" alt="Twitter icon">
-            <img src="./img/linkedin2.svg" alt="LinkedIn icon">
-        </div>
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://github.com/nesty11">
+          <img src="./img/github2.svg" alt="Github icon" />
+        </a>
+        <a href="#">
+          <img src="./img/twitter2.svg" alt="Twitter icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nestor-a-vale?trk=people-guest_people_search-card"
+        >
+          <img src="./img/linkedin2.svg" alt="LinkedIn icon" />
+        </a>
+      </div>
     </footer>
 
     <script src="js/tota11y.min.js"></script>
-</body>
-
+  </body>
 </html>
