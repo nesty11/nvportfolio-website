@@ -309,3 +309,9 @@ button,
 .background-4 {
   animation: 10s background-change infinite alternate linear;
 }
+
+.meet-pic {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+}
