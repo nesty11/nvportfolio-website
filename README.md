@@ -76,7 +76,7 @@ Feel free to explore more projects in the [Projects](projects) directory.
 
 I'm always open to new opportunities and collaborations. Feel free to reach out to me via:
 
-- [Email](nvale.code@gmail.com) 📧
+- [Email](mailto:nvale.code@gmail.com) 📧
 - [LinkedIn](https://www.linkedin.com/in/nestor-a-vale) 💼
 - [Threads](https://www.threads.net/@webdev.nes) 🧵
 - [Website](https://nesty11.github.io/nvportfolio-website/) 🌐
