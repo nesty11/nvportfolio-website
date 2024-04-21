@@ -10,7 +10,7 @@ Welcome to my portfolio! This repository contains code and projects that showcas
 
 ## About Me
 
-I'm Néstor Vale, a passionate and creative new Full Stack Web Developer. I'm just starting out my career with 1 year of experience in Web Development. I'm enthusiastic about building innovative solutions and collaborating with teams to tackle challenging problems. My expertise includes HTML, CSS, JavaScript, Angular, MongoDB, and AWS.
+I'm Néstor Vale, a passionate and creative new Full Stack Web Developer. I'm just starting out my career with 1 year of experience in Web Development. I'm enthusiastic about building innovative solutions and collaborating with teams to tackle challenging problems. My experience includes HTML, CSS, JavaScript, Angular, MongoDB, and AWS.
 
 ## Projects
 
