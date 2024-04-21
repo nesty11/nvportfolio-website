@@ -46,7 +46,7 @@ Here are some highlighted projects from my portfolio:
 - Technologies: Angular, SCSS.
 - Features: User authentication, movie card components and user profile customization.
 
-Feel free to explore more projects in the [Projects](projects) directory.
+Feel free to explore more projects in the [Projects](https://github.com/nesty11) directory.
 
 ## Skills
 
