@@ -18,7 +18,6 @@
     />
     <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
   </head>
-
   <body>
     <header class="page-header">
       <img src="./img/nv5.svg" alt="Nestor's logo" class="page-header__item" />
@@ -50,53 +49,42 @@
       </nav>
     </header>
     <main>
-      <h1>Contact</h1>
-      Calle 1 <br />
-      Caguas, PR <br />
-      <br />
-      Tel
-      <a href="tel:(555)-555-5555" aria-label="Nestor's phone number"
-        >(555)555-5555</a
-      >
-      <br />
-      <a href="mailto:info@email.com"> info@email.com</a>
+      <section>
+        <h1>Contact</h1>
 
-      <br />
-      <a href="mailto:info@email.com">Contact me</a>
-      <br />
-      <form action="#" method="post" id="contact-form">
-        <label class="standard-label" for="contact-email">E-mail:*</label>
-        <input type="email" id="contact-email" required />
-
-        <label class="standard-label" for="contact-tel"
-          >Telephone (Optional):</label
-        >
-        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel" />
-        <br />
-
-        <label class="standard-label" for="contact-message">Message:*</label>
-        <textarea maxlength="240" required id="contact-message"></textarea>
-        <br />
-        <input type="submit" value="Send message" />
-      </form>
+        <strong>Email:</strong>
+        <a href="mailto:nvale.code@gmail.com">nvale.code@gmail.com</a>
+        <p>Feel free to send me a message using the form below:</p>
+        <form action="#" method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">E-mail:*</label>
+          <input type="email" id="contact-email" required />
+          <label class="standard-label" for="contact-tel"
+            >Telephone (Optional):</label
+          >
+          <input
+            type="tel"
+            pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+            id="contact-tel"
+          />
+          <label class="standard-label" for="contact-message">Message:*</label>
+          <textarea maxlength="240" required id="contact-message"></textarea>
+          <input type="submit" value="Send message" />
+        </form>
+      </section>
     </main>
     <footer class="page-footer">
       <p>Find me on</p>
       <div class="social-media">
-        <a href="https://github.com/nesty11">
+        <a href="https://github.com/nesty11" target="_blank">
           <img src="./img/github2.svg" alt="Github icon" />
         </a>
-        <a href="#">
-          <img src="./img/twitter2.svg" alt="Twitter icon" />
+        <a href="https://www.threads.net/@webdev.nes">
+          <img src="./img/threads.svg" alt="Threads icon" />
         </a>
-        <a
-          href="https://www.linkedin.com/in/nestor-a-vale?trk=people-guest_people_search-card"
-        >
+        <a href="https://www.linkedin.com/in/nestor-a-vale" target="_blank">
           <img src="./img/linkedin2.svg" alt="LinkedIn icon" />
         </a>
       </div>
     </footer>
-
-    <script src="js/tota11y.min.js"></script>
   </body>
 </html>
