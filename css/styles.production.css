@@ -172,22 +172,22 @@ button:focus {
 }
 
 /*
-  future note:
-  change background-color in .grid__item to #4a81e5
-  border-radius: 50%
-  make <h2> and <p> be inside the grid
-  for work.html
-  <div class="grid__item">
-    <div class="this-is-the-added-div">
-      <h2 class="work-table">Mobile Web App</h2>
-      <p>
-          Within this project, I was responsible fot the frontend. It's written in React.js. Additionally,
-          I've created the HTML and CSS templates.
-      </p>
-      <a href="#">See project on Github</a>
-    </div>
+future note:
+change background-color in .grid__item to #4a81e5
+border-radius: 50%
+make <h2> and <p> be inside the grid
+for work.html
+<div class="grid__item">
+  <div class="this-is-the-added-div">
+    <h2 class="work-table">Mobile Web App</h2>
+    <p>
+        Within this project, I was responsible fot the frontend. It's written in React.js. Additionally,
+        I've created the HTML and CSS templates.
+    </p>
+    <a href="#">See project on Github</a>
   </div>
-  */
+</div>
+*/
 .work-table {
   color: #8fffe6;
 }
@@ -429,4 +429,56 @@ button {
   max-width: 700px;
   width: 100%;
   height: auto;
+}
+
+.page-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.social-media a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.social-media img {
+  width: 100%;
+  height: auto;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; /* Stack items vertically */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; /* Center items horizontally */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; /* Center items vertically */
+  margin-top: 50px; /* Adjust as needed to create space from the top */
 }
