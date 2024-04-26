@@ -108,7 +108,7 @@ button:focus {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .page-footer {
@@ -118,8 +118,8 @@ button:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -130,14 +130,14 @@ button:focus {
   width: 100%;
   padding: 20px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
 }
 
 .navigation-list {
@@ -146,7 +146,7 @@ button:focus {
   display: flex;
   list-style-type: none;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -232,8 +232,8 @@ button {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
@@ -250,8 +250,8 @@ button {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
@@ -266,30 +266,30 @@ button {
 @-webkit-keyframes cloud-1-move {
   from {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
 
   to {
     -webkit-transform: translate(-200px, 50px);
-            transform: translate(-200px, 50px);
+    transform: translate(-200px, 50px);
   }
 }
 
 @keyframes cloud-1-move {
   from {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
 
   to {
     -webkit-transform: translate(-200px, 50px);
-            transform: translate(-200px, 50px);
+    transform: translate(-200px, 50px);
   }
 }
 
 .cloud-1 {
   -webkit-animation: 10s cloud-1-move infinite alternate linear;
-          animation: 10s cloud-1-move infinite alternate linear;
+  animation: 10s cloud-1-move infinite alternate linear;
 }
 
 @-webkit-keyframes flag-change {
@@ -314,7 +314,7 @@ button {
 
 .flags {
   -webkit-animation: 4s flag-change infinite alternate linear;
-          animation: 4s flag-change infinite alternate linear;
+  animation: 4s flag-change infinite alternate linear;
 }
 
 @-webkit-keyframes sun-change {
@@ -339,65 +339,65 @@ button {
 
 .sun {
   -webkit-animation: 10s sun-change infinite alternate linear;
-          animation: 10s sun-change infinite alternate linear;
+  animation: 10s sun-change infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-2-move {
   from {
     -webkit-transform: translate(-20px, 50px);
-            transform: translate(-20px, 50px);
+    transform: translate(-20px, 50px);
   }
 
   to {
     -webkit-transform: translate(350px, 50px);
-            transform: translate(350px, 50px);
+    transform: translate(350px, 50px);
   }
 }
 
 @keyframes cloud-2-move {
   from {
     -webkit-transform: translate(-20px, 50px);
-            transform: translate(-20px, 50px);
+    transform: translate(-20px, 50px);
   }
 
   to {
     -webkit-transform: translate(350px, 50px);
-            transform: translate(350px, 50px);
+    transform: translate(350px, 50px);
   }
 }
 
 .cloud-2 {
   -webkit-animation: 10s cloud-2-move infinite alternate linear;
-          animation: 10s cloud-2-move infinite alternate linear;
+  animation: 10s cloud-2-move infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-3-move {
   from {
     -webkit-transform: translate(-100px, 50px);
-            transform: translate(-100px, 50px);
+    transform: translate(-100px, 50px);
   }
 
   to {
     -webkit-transform: translate(120px, 50px);
-            transform: translate(120px, 50px);
+    transform: translate(120px, 50px);
   }
 }
 
 @keyframes cloud-3-move {
   from {
     -webkit-transform: translate(-100px, 50px);
-            transform: translate(-100px, 50px);
+    transform: translate(-100px, 50px);
   }
 
   to {
     -webkit-transform: translate(120px, 50px);
-            transform: translate(120px, 50px);
+    transform: translate(120px, 50px);
   }
 }
 
 .cloud-3 {
   -webkit-animation: 10s cloud-3-move infinite alternate linear;
-          animation: 10s cloud-3-move infinite alternate linear;
+  animation: 10s cloud-3-move infinite alternate linear;
 }
 
 @-webkit-keyframes background-change {
@@ -422,7 +422,7 @@ button {
 
 .background-4 {
   -webkit-animation: 10s background-change infinite alternate linear;
-          animation: 10s background-change infinite alternate linear;
+  animation: 10s background-change infinite alternate linear;
 }
 
 .meet-pic {
@@ -437,11 +437,11 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -450,11 +450,11 @@ button {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
   margin-right: 10px;
@@ -472,31 +472,31 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; /* Stack items vertically */
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; /* Center items horizontally */
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; /* Center items vertically */
-  margin-top: 50px; /* Adjust as needed to create space from the top */
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .contact-social-media {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: auto 20px auto 20px auto;
-  grid-template-rows: repeat(3, auto); /* 3 rows */
-  grid-gap: 20px; /* Adjust the gap between items */
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; /* Center items horizontally */
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; /* Center items vertically */
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contact-social-media > *:nth-child(1) {
@@ -550,17 +550,32 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .contact-social-media img {
   width: 50px;
   height: auto;
+}
+
+.table-container {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table-container th {
+  border: 1px solid #f3f1f2;
+  padding: 8px;
+}
+
+.table-container td {
+  border: 1px solid #f3f1f2;
+  padding: 8px;
 }
