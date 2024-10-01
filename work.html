@@ -1,218 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nestor's Projects</title>
-    <link rel="shortcut icon" href="./img/NV.png" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
-  </head>
 
-  <body>
-    <header class="page-header">
-      <img src="./img/nv5.svg" alt="Nestor's logo" class="page-header__item" />
-      <nav class="main-navigation page-header__item">
-        <ul role="menubar" class="navigation-list">
-          <li role="presentation">
-            <a href="index.html" role="menuitem" class="navigation-list"
-              >Home</a
-            >
-          </li>
-          <li role="presentation">
-            <a
-              href="about.html"
-              role="menuitem"
-              aria-label="about Nestor"
-              class="navigation-list"
-              >About</a
-            >
-          </li>
-          <li role="presentation">
-            <a href="contact.html" role="menuitem" class="navigation-list"
-              >Contact</a
-            >
-          </li>
-          <li role="presentation">
-            <a href="work.html" role="menuitem" class="navigation-list">Work</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h1>Work</h1>
-        <div class="project-list">
-          <div class="grid__item">
-            <h2 class="work-table">Meet Me: Web App</h2>
-            <p>
-              This is a serverless, progessive web application (PWA) with React
-              using a test-driven development (TDD) technique. The application
-              uses Google Calendar API to fecth upcoming events. Some of the
-              projects' features are being able to filter events by city,
-              specify the number of events searched, use the app when offline,
-              add an app shortcut to your home screen, and displays charts
-              visualizing event details.
-            </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nestor's Projects</title>
+  <link rel="shortcut icon" href="./img/NV.png" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
 
-            <ul>
-              <h3>Technologies:</h3>
-              <li>React</li>
-              <li>AWS Lambda</li>
-              <li>Jest-Cucumber</li>
-              <li>Puppeteer</li>
-              <li>Atatus</li>
-              <li>Recharts</li>
-              <li>Google APIs</li>
-              <li>Google OAuth 2.0</li>
-            </ul>
-            <div>
-              <a href="./img/meetapp.png" target="_blank">
+<body>
+  <header class="page-header">
+    <img src="./img/nv5.svg" alt="Nestor's logo" class="page-header__item" />
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" aria-label="about Nestor" class="navigation-list">About</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list">Contact</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list">Projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Work</h1>
+      <div class="project-list">
+        <div class="grid__item">
+          <h2 class="work-table">Meet Me: Web App</h2>
+          <p>
+            This is a serverless, progessive web application (PWA) with React
+            using a test-driven development (TDD) technique. The application
+            uses Google Calendar API to fecth upcoming events. Some of the
+            projects' features are being able to filter events by city,
+            specify the number of events searched, use the app when offline,
+            add an app shortcut to your home screen, and displays charts
+            visualizing event details.
+          </p>
+
+          <ul>
+            <h3>Technologies:</h3>
+            <li>React</li>
+            <li>AWS Lambda</li>
+            <li>Jest-Cucumber</li>
+            <li>Puppeteer</li>
+            <li>Atatus</li>
+            <li>Recharts</li>
+            <li>Google APIs</li>
+            <li>Google OAuth 2.0</li>
+          </ul>
+          <div>
+            <a href="./img/meetapp.png" target="_blank">
               <img src="./img/meetapp.png" class="meet-pic" />
             </a>
-            </div>
-            <a href="https://github.com/nesty11/meet" target="_blank"
-              >See project on Github</a
-            >
-            <br />
-            <a href="https://nesty11.github.io/meet/" target="_blank"
-              >Check out the app here!</a
-            >
           </div>
-          <div class="grid__item">
-            <h2 class="work-table">NvFlix</h2>
-            <p>
-              NvFlix is a dynamic web application designed to revolutionize your
-              movie-watching escapades. Whether you're a film enthusiast or a
-              casual viewer, NvFlix is your gateway to a world of cinematic
-              delight.
-            </p>
-            <ul>
-              <h3>Key Features:</h3>
-              <li>Intuitive Navigation</li>
-              <li>Personalized Profiles</li>
-              <li>Interactive Movie Cards</li>
-              <li>Responsive Design</li>
-              <li>Custom Movie API</li>
-            </ul>
-            <div>
-              <a href="./img/nvflix.png" target="_blank">
+          <a href="https://github.com/nesty11/meet" target="_blank">See project on Github</a>
+          <br />
+          <a href="https://nesty11.github.io/meet/" target="_blank">Check out the app here!</a>
+        </div>
+        <div class="grid__item">
+          <h2 class="work-table">NvFlix</h2>
+          <p>
+            NvFlix is a dynamic web application designed to revolutionize your
+            movie-watching escapades. Whether you're a film enthusiast or a
+            casual viewer, NvFlix is your gateway to a world of cinematic
+            delight.
+          </p>
+          <ul>
+            <h3>Key Features:</h3>
+            <li>Intuitive Navigation</li>
+            <li>Personalized Profiles</li>
+            <li>Interactive Movie Cards</li>
+            <li>Responsive Design</li>
+            <li>Custom Movie API</li>
+          </ul>
+          
+          <div>
+            <a href="./img/nvflix.png" target="_blank">
               <img src="./img/nvflix.png" class="meet-pic" />
             </a>
-            </div>
-            <a href="https://github.com/nesty11/myFlix-client" target="_blank"
-              >See project on Github</a
-            ><br />
-            <a href="https://nvflixapp.netlify.app/login" target="_blank"
-              >Join now to view the app!</a
-            >
           </div>
-          <div class="grid__item">
-            <h2 class="work-table">Pokédex</h2>
-            <p>
-              A simple Pokédex app which you'll find Pokémon from the first
-              generation to the fourth generation. The Pokémon will display
-              their names, normal artwork, shiny variant artwork, types and
-              abilities.
-            </p>
-            <div>
-              <a href="./img/pokedex.png" target="_blank">
+          <div class="resume-download">
+            <a href="files/casestudy.pdf" download="NvFlix-Case-Study.pdf" >NvFlix: Behind the Scenes</a>
+        </div>
+          <a href="https://github.com/nesty11/myFlix-client" target="_blank">See project on Github</a><br />
+          <a href="https://nvflixapp.netlify.app/login" target="_blank">Join now to view the app!</a>
+        </div>
+        <div class="grid__item">
+          <h2 class="work-table">Pokédex</h2>
+          <p>
+            A simple Pokédex app which you'll find Pokémon from the first
+            generation to the fourth generation. The Pokémon will display
+            their names, normal artwork, shiny variant artwork, types and
+            abilities.
+          </p>
+          <div>
+            <a href="./img/pokedex.png" target="_blank">
               <img src="./img/pokedex.png" class="meet-pic" />
             </a>
-            </div>
-            <a href="https://github.com/nesty11/national-dex" target="_blank"
-              >See project on Github</a
-            ><br />
-            <a href="https://nesty11.github.io/national-dex/" target="_blank"
-              >Click here to view the app!</a
-            >
           </div>
-          <div class="grid__item">
-            <h2 class="work-table">RESTful API for NvFlix</h2>
-            <p>
-              Built the server-side component for the NvFlix web application.
-              The web application will provide users with access to information
-              about different movies, directors, and genres. Users will be able
-              to sign up, update their personal information, and select favorite
-              movies.
-            </p>
-            <h3>Technologies:</h3>
-              <ul>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>MongoDB</li>
-                <li>Postman</li>
-              </ul>
-
-            <a href="https://github.com/nesty11/movie_api" target="_blank"
-              >See project on Github</a
-            >
-          </div>
-          <div class="grid__item">
-            <h2 class="work-table">myFlix-Angular</h2>
-            <p>
-              This is another take on my original NvFlix, but this time I
-              developed it using Angular and TypeScript. Welcome to
-              myFlix-Angular, where movie-watching transcends into an immersive
-              experience like never before. Crafted with Angular, myFlix-Angular
-              combines cutting-edge technology with seamless functionality to
-              redefine the way you enjoy your favorite films.
-            </p>
-            <h3>Technologies:</h3>
-            <ul>
-              <li> Angular</li>
-              <li>TypeScript</li>
-              <li>HTML5 & CSS3</li>
-              <li>RESTful API</li>
-            </ul>
-            <p>
-              <div>
-                <a href="./img/myflix.png" target="_blank">
-                  <img src="./img/myflix.png" class="meet-pic" />
-                </a>
-              </div>              
-              <a
-                href="https://github.com/nesty11/myFlix-Angular"
-                target="_blank"
-                >See project on Github</a
-              >
-              <br />
-              <a
-                href="https://nesty11.github.io/myFlix-Angular-App/welcome"
-                target="_blank"
-                >Click here to view the app!</a
-              >
-            </p>
-          </div>
+          <a href="https://github.com/nesty11/national-dex" target="_blank">See project on Github</a><br />
+          <a href="https://nesty11.github.io/national-dex/" target="_blank">Click here to view the app!</a>
         </div>
-      </section>
-    </main>
-    <footer class="page-footer">
-      <p>Find me on</p>
-      <div class="social-media">
-        <a href="https://github.com/nesty11" target="_blank">
-          <img src="./img/github2.svg" alt="Github icon" />
-        </a>
-        <a href="https://www.threads.net/@webdev.nes">
-          <img src="./img/threads.svg" alt="Threads icon" />
-        </a>
-        <a href="https://www.linkedin.com/in/nestor-a-vale" target="_blank">
-          <img src="./img/linkedin2.svg" alt="LinkedIn icon" />
-        </a>
-      </div>
-    </footer>
+        <div class="grid__item">
+          <h2 class="work-table">RESTful API for NvFlix</h2>
+          <p>
+            Built the server-side component for the NvFlix web application.
+            The web application will provide users with access to information
+            about different movies, directors, and genres. Users will be able
+            to sign up, update their personal information, and select favorite
+            movies.
+          </p>
+          <h3>Technologies:</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>Postman</li>
+          </ul>
 
-    <!--     <script src="js/tota11y.min.js"></script>
+          <a href="https://github.com/nesty11/movie_api" target="_blank">See project on Github</a>
+        </div>
+        <div class="grid__item">
+          <h2 class="work-table">myFlix-Angular</h2>
+          <p>
+            This is another take on my original NvFlix, but this time I
+            developed it using Angular and TypeScript. Welcome to
+            myFlix-Angular, where movie-watching transcends into an immersive
+            experience like never before. Crafted with Angular, myFlix-Angular
+            combines cutting-edge technology with seamless functionality to
+            redefine the way you enjoy your favorite films.
+          </p>
+          <h3>Technologies:</h3>
+          <ul>
+            <li> Angular</li>
+            <li>TypeScript</li>
+            <li>HTML5 & CSS3</li>
+            <li>RESTful API</li>
+          </ul>
+          <p>
+          <div>
+            <a href="./img/myflix.png" target="_blank">
+              <img src="./img/myflix.png" class="meet-pic" />
+            </a>
+          </div>
+          <a href="https://github.com/nesty11/myFlix-Angular" target="_blank">See project on Github</a>
+          <br />
+          <a href="https://nesty11.github.io/myFlix-Angular-App/welcome" target="_blank">Click here to view the app!</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <a href="https://github.com/nesty11" target="_blank" rel="noopener noreferrer">
+        <img src="./img/github2.svg" alt="Github icon" />
+      </a>
+      <a href="https://www.threads.net/@webdev.nes" target="_blank" rel="noopener noreferrer">
+        <img src="./img/threads.svg" alt="Threads icon" />
+      </a>
+      <a href="https://www.linkedin.com/in/nestor-a-vale" target="_blank" rel="noopener noreferrer">
+        <img src="./img/linkedin2.svg" alt="LinkedIn icon" />
+      </a>
+
+    </div>
+  </footer>
+
+  <!--     <script src="js/tota11y.min.js"></script>
  -->
-  </body>
+</body>
+
 </html>
