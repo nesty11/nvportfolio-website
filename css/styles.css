@@ -377,3 +377,62 @@ button,
   border: 1px solid var(--textColor);
   padding: 8px;
 }
+
+.skills-section {
+  margin-top: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skill-card {
+  background-color: white;
+  color: #020f29;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+  display: inline-flex;
+  flex-direction: column;
+
+  width: auto;
+  min-width: 150px;
+  max-width: 250px;
+
+  height: auto;
+
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease;
+
+  margin: 10px;
+}
+
+.skill-card > * {
+  margin: 0;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.resume-button {
+  display: inline-block;
+  background-color: #8fffe6;
+  color: #020f29; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; 
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #004080;
+}
